@@ -768,6 +768,104 @@ body {
   #FOOTER
 \*-----------------------------------*/
 
+/* Trigger Button */
+.open-modal-btn {
+  background-color: transparent;
+  color: #FFD700;
+  border: 2px solid #FFD700;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.open-modal-btn:hover {
+  background-color: #FFD700;
+  color: #000;
+}
+
+/* Modal Overlay */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Modal Box */
+.modal-content {
+  background-color: #111;
+  color: #fff;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 15px #FFD700;
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-bottom: 1rem;
+  color: #FFD700;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFD700;
+  cursor: pointer;
+}
+
+/* Form Elements */
+form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  color: #fff;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Submit Button */
+form button {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e6c200;
+}
+
+
 .footer { font-size: var(--fs-6); }
 
 .footer-top .container {
